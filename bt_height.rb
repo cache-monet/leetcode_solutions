@@ -24,7 +24,7 @@ def recursive_height (root, h, arr, len)
 
 end
 
-test = [1, 3, -1, 5, -1, -1]
+test = [1, 3, 6, 5, -1, -1, 2, -1, -1]
 
-get_height(test, 3)
-# A = [77, 3, 6, 22, -1, -1, -8, ]
+ar = [77, 3, 6, 22, -1, -1, -8, 9, 12, -36, -1, -1, 999, -1, -1]
+get_height(ar, 15)
